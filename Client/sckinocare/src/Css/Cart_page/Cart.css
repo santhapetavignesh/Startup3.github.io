@@ -1,0 +1,142 @@
+.Cartmain{
+    width: 40%;
+    margin:2% auto;
+    padding: 2%;
+    background: rgb(239, 224, 217)    
+}
+
+.Cartmain .cartpricing1{
+    font-size: 32px;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+
+.Cartmain .Cartmainh1{
+        margin: -1% 0px 0px 80%;
+}
+.cartcontain{
+    margin: 5% 0px 0px 0px;
+    display: flex;
+}
+.cartcontain .cartimage{
+        width: 20%;
+        height: 200px;
+        margin: -2% 0px 0px 0px;
+}
+.cartcontain img{
+    width: 100%;
+    height: 100%;
+}
+
+.cartdetails{
+    width: 70%;
+    height: 250px;
+    margin: -3% 0px 0px 8%;
+}
+
+.cartdetails .carth1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight:500;
+    width:75%;
+    height: 30px;
+}
+.cartdetails h3{
+    color: gray;
+    font-size: 20px;
+}
+.cartdetails .cartpricing1{
+        width: 400px;
+        font-size: 24px;
+        display: flex;
+        font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.cartdetails .cartpricing2{
+    margin: 6px 0px 0px 30px;
+    font-size: 18px;
+    color: gray;
+    text-decoration: line-through;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.ratingcart{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(34, 169, 43);
+    margin: 0% 0px 0px 10%;
+    border-radius: 25px;
+    font-size: 24px;
+    color: white;
+}
+.cartdetailsdiv1{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.cartstar{
+    margin: 5% 0px 0px 15%;  
+}
+.cartbutton{
+    background-color: white;
+    width: 20%;
+    height: 25px;
+    padding: 2%;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.cartbutton .cartbutton1{
+   margin:-5px 0px 10% 10%;
+   background: none;
+   border: 1px solid transparent;
+   font-size: 28px;
+}
+.cartbutton .cartbutton2{
+    margin:-5px 0px 10% 10%;
+    background: none;
+    border: 1px solid transparent;
+    font-size: 28px;
+ }
+ p{
+    font-size: 24px;
+    margin: 1px 0px 0px 10px;
+ }
+ .divline{
+    width: 35%;
+    margin: 5% 0px 0px -10%;
+    border-bottom: 2px solid gray;
+    position: absolute;
+ }
+ .cartdelete{
+    font-size: 30px;
+    position: absolute;
+    margin: -2% 0px 0px 25%;
+ }
+ .Cartmainbutton {
+    width: 80%;
+    margin: 4rem 0px 0px 5rem;
+    height: 80px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+ }
+ .Cartmainbutton_div1 h1{
+    width: 100%;
+    font-size: 22px;
+    margin: 1rem 0px 0px 7%;
+ }
+ .Cartmainbutton_div1 h{
+    font-size: 20px;
+    margin: 1px 0px 0px 20px;
+ }
+ .Cartmainbutton_div2 button{
+    width: 100%;
+    margin: 12% 0px 0px -40%;
+    font-size: 24px;
+    background: none;
+    border: 1px solid transparent;
+ }

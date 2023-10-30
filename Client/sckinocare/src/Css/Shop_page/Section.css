@@ -1,0 +1,122 @@
+.Slidemain{
+    width: 98%;
+    height: 850px;
+    font-family:sans-serif;  
+}
+.sliderrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sliderrow2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    width: 17%;
+    height: 300px;
+    padding: 2%;
+    border-radius:15px;
+    border: 1px solid rgb(213, 209, 209);
+    background: rgb(248, 241, 241);
+    
+}
+.cardhead{
+    width: 100%;
+    height: 120px;
+    padding: 2%;
+    display: flex;
+}
+.cardhead img{
+    width:50%;
+    height: 90%;
+    margin:3% 0px 0px 15%;
+}
+.cardhead span{
+    width: 40%;
+    height: 18%;
+    margin:-2% 0px 0px 5%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgb(4, 198, 39);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardmoney{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 20px;
+margin-top: -10px;
+}
+.card h5{
+    font-size: 18px;
+    margin-top: 2%;
+    text-overflow: initial;
+}
+.card h3{
+    margin-top:0%;
+}
+.card h6{
+    margin:1% 0px 0px 20%;
+   text-decoration:line-through;
+   color: rgb(176, 171, 171);
+   font-weight: 600;
+   font-size: 15px;
+}
+.card button{
+    width: 100%;
+    height: 50px;
+    margin-top: 7%;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background: rgb(210, 234, 222);
+    font-size: 15px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+.buttonicon{
+    margin-left:20px;
+    font-size: 18px;
+}
+
+
+.spanstart{
+    width: 40%;
+    margin:2% 0px 0px 3%;
+}
+.cardhead h5{
+    width:30%;
+    margin: 3px 0px 0px 3%;
+    font-weight: 300;
+    color: rgb(230, 226, 226);
+}
+
+.sliderbutton{
+    margin:3% 0px 0px 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.sliderbutton button {
+    width: 12%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 190, 190);
+    box-shadow: 5px 10px 30px rgb(176, 171, 171);
+    background: #FFFF;
+}
+.buttonprecious{
+    margin-right:10% ;
+}
+.buttonnext{
+    margin-left:10% ;
+}
+
+.SlidemainLoading{
+    margin-top: 20%;
+}

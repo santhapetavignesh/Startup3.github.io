@@ -1,0 +1,29 @@
+.Specificationmain{
+    width: 35%;
+    background: rgb(248, 247, 245);
+    margin:5% auto;
+    padding: 2%;
+}
+.Specificationmain h1{
+        font-size: 30px;
+        font-family:sans-serif;
+        font-weight: 400;
+        color: rgb(30, 27, 27);
+        margin-bottom: 8%;
+        display: flex;
+}
+.Specificationmain p{
+    margin-top: 4%;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    font-weight: 400;
+    color: rgb(53, 49, 49);
+}
+.Specificationmain .Specificationmaindiv1{
+    margin-left: 60%;
+    color: rgb(70, 66, 66);
+    font-size: 35px;
+    font-weight: 400;
+    font-family: sans-serif;
+}

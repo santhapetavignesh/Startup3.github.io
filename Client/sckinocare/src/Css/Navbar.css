@@ -1,0 +1,112 @@
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color:rgb(255, 255, 254);
+    box-shadow: 10px 20px 20px rgb(231, 226, 226);
+}
+.navbarlogo{
+    width: 15%;
+    height: 100%;
+}
+.navbarSearchmain{
+    width: 40%;
+    height: 100%;
+}
+.navbarusermain{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbarlogo img{
+    width: 80%;
+    height: 100%;
+}
+.navbarSearch{
+    width: 100%;
+    height: 60%;
+    margin-top: 18px;
+    border:1px solid rgb(211, 174, 106);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.navbarSearchicon{
+    width: 5%;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 3%;
+}
+.navbarSearchinput{
+    width: 86%;
+    height: 92%; 
+    outline: none;
+    border:1px solid transparent;
+    font-size: 24px;
+    color: black;
+}
+.navbarSearchinput::placeholder{
+    color: rgb(79, 76, 76);
+    font-size: 20px;
+    font-weight: 500;
+}
+.fsearch{
+    color: rgb(87, 84, 84);
+}
+.navbarplug{
+    width: 15%;
+    height:60%;
+    margin-top: 15px;
+    border:1px solid rgb(211, 174, 106);
+    border-radius: 100px; 
+}
+.navbarbell{
+    width: 15%;
+    height:60%;
+    margin-top: 15px;
+    border:1px solid rgb(211, 174, 106);
+    border-radius: 100px; 
+}
+.navbaruser{
+    width: 50%;
+    height:60%;
+    margin-top: 15px;
+    border:1px solid rgb(211, 174, 106);
+    border-radius: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.bplugin{
+    padding: 22px;
+    font-size: 24px;
+   }
+.bbell{
+    padding: 22px;
+    font-size: 24px;    
+}
+.navbaruserimage{
+    width: 20%;
+    height: 70%;
+    border-radius: 100px;
+    margin-top: 13px;
+}
+.navbarusername{
+    width: 40%;
+    height: 50%;
+    margin-top: 10%;
+    font-size: 24px;
+}
+.navbaruserarrow{
+    width: 10%;
+    height: 30%;
+    margin-top: 28px
+}
+.navbaruserimages{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    
+}

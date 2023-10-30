@@ -1,0 +1,85 @@
+.relatedmain{
+    width: 100%;
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+}
+.relatedmain h1{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:sans-serif;
+    margin:3% 0px 0px 3%;
+}
+
+.relatedmain .relateddisplay{
+    width: 97%;
+    height: 450px;
+    margin:2% 0px 0px 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.relateddisplay .relatedcard{
+    width: 12%;
+    height: 85%;
+    background: #ffff;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 30px;
+    padding: 1%; 
+}
+.relatedcard .relatedcardimg{
+        width: 50%;
+        height: 100%;
+}
+.relatedcard .relatedcard_head{
+    width: 70%;
+    height: 45%;
+    margin-left: 20%;
+    display: flex;
+}
+.relatedcardimg img {
+    width: 100%;
+    height: 100%;
+}
+.relatedcard_head .relatedrating{
+        width: 50%;
+        height: 30px;
+        background: rgb(24, 139, 3);
+        display: flex;
+        margin-left: 10%;
+        color: #ffff;
+        font-size: 24px;
+        font-weight: 600;
+        border-radius: 20px;
+}
+.relatedprice{
+    display: flex;
+    width: 65%;
+}
+.relatedprice h1{
+    font-size: 22px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.relatedprice h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5%;
+    color: rgb(153, 150, 150);
+    text-decoration: line-through;
+    font-family:sans-serif;
+}
+.relatedbutton{
+    width: 80%;
+    height: 50px;
+    background: rgb(206, 236, 227);
+    border: 1px solid transparent;
+    border-radius: 40px;
+    margin: 0px 0px 0px 8%;
+
+}
+.relatedcard .relatedh3{
+    width: 107%;
+    height: 60px;
+    line-height: 20px;
+}
